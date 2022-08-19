@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.hover {
+    height: 100px;
+    width: 300px;
+    background-color: bisque;
+}
+
+.hover:hover { /* se activa cuando el raton pasa por arriba */
+
+    background-color: burlywood;
+}
+
+.listado {
+    padding: 15px;
+    background-color: aquamarine;
+}
+
+.listado p:first-child {
+
+    color: white;
+}
+
+a:link {
+    color: violet;
+}
+
+a:visited {
+    color: brown;
+}
+
+a:hover {
+    color: tomato;
+}
+
+a:active {
+    color: greenyellow;
+}

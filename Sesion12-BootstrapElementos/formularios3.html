@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios 3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <label for="customRange1" class="form-label">Para seleccionar rango</label>
+        <input type="range" class="form-range" id="customRange1">
+    </div>
+
+    <div class="input-group w-50 pt-4">
+        <span class="input-group-text" id="basic-addon1">@</span>
+        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+      </div>
+      
+      <div class="input-group w-50 pt-4">
+        <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+        <span class="input-group-text" id="basic-addon2">@example.com</span>
+      </div>
+      
+      <label for="basic-url" class="form-label">Your vanity URL</label>
+      <div class="input-group w-50 pt-4">
+        <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+        <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+      </div>
+      
+      <div class="input-group w-50 pt-4">
+        <span class="input-group-text">$</span>
+        <input type="number" class="form-control" aria-label="Amount (to the nearest dollar)" placeholder="Ingrese el monto del dinero">
+        <span class="input-group-text">.00</span>
+      </div>
+
+      <div class="input-group w-50 pt-4">
+        <div class="input-group-text">
+          <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
+        </div>
+        <input type="text" class="form-control" aria-label="Text input with checkbox" placeholder="Para tener en cuenta si lo dejo marcado">
+      </div>
+      
+      <div class="input-group w-50 pt-4">
+        <div class="input-group-text">
+          <input class="form-check-input mt-0" type="radio" value="" aria-label="Radio button for following text input">
+        </div>
+        <input type="text" class="form-control" aria-label="Text input with radio button" placeholder="Para tener en cuenta si lo dejo marcado">
+      </div>
+      
+      <div class="input-group w-50 pt-4">
+        <span class="input-group-text">Nombres y Apellido</span>
+        <input type="text" aria-label="First name" class="form-control" placeholder="Nombres">
+        <input type="text" aria-label="Last name" class="form-control" placeholder="Apellido">
+      </div>
+
+      <div class="input-group w-50 pt-4">
+        <input type="text" class="form-control" placeholder="Ingresa tu busqueda" aria-label="Recipient's username" aria-describedby="button-addon2">
+        <button class="btn btn-primary" type="button" id="button-addon2">Buscar</button>
+      </div>
+
+      <div class="input-group w-50 pt-4">
+        <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="Elige tu red social">
+        <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Redes</button>
+        <ul class="dropdown-menu dropdown-menu-end">
+          <li><a class="dropdown-item" href="#">Facebook</a></li>
+          <li><a class="dropdown-item" href="#">Twitter</a></li>
+          <li><a class="dropdown-item" href="#">Instagram</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#">Otra red social</a></li>
+        </ul>
+      </div>
+
+      <div class="form-floating mb-3">
+        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+        <label for="floatingInput">Correo Electronico</label>
+      </div>
+
+      <div class="form-floating mb-3">
+        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+        <label for="floatingPassword">Contraseña</label>
+      </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</html>

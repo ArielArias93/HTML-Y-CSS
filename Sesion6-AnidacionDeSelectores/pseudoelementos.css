@@ -1,0 +1,28 @@
+.contenedor {
+
+    height: 100px;
+    width: 300px;
+    background-color: aquamarine;
+}
+
+.frase {
+    font-style: italic;
+}
+
+.frase::before {
+    content: '<<';
+    font-size: x-small;
+
+}
+
+.frase::after {
+    content: '>>';
+    font-size: xx-small;
+}
+
+.libro {
+
+    padding: 15px;
+    background-color: bisque;
+    font-family: Arial;
+}

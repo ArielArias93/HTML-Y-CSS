@@ -1,0 +1,17 @@
+.div1, .div2 {
+    background-color: brown;
+}
+
+.span1 {
+    background-color: aqua;
+}
+
+.span2 {
+    background-color: aqua;
+    float: right;
+}
+
+.img {
+    height: 50px;
+    width: 50px;
+}

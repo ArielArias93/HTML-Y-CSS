@@ -1,0 +1,52 @@
+.contenedor {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    font-size: 2rem;
+}
+
+.barraizquierda {
+    
+    padding: 0.5rem;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.elemento1 , .elemento2 , .elemento3 {
+    background-color: aqua;
+    padding: 0.5rem;
+    margin: 2px;
+    
+}
+
+.seccionprincipal {
+
+    padding: 10px;
+    flex-grow: 1;
+    background-color: seagreen;
+}
+
+.texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+@media (max-width: 640px) {
+
+    .barraizquierda {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contenedor {
+        flex-direction: column-reverse;
+    }
+    
+}
